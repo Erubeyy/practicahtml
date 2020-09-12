@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registro</title>
+	<link rel="stylesheet"  href="css/index.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<b>PÁGINA BÁSICA DE HTML </b>
+			<ul class="verdenav">
+				<li><a href="index.html" >Inicio</a></li>
+				<li><a href="registro.html">Registro</a></li>
+				<li><a href="paginasfavoritas.html" >Páginas Favoritas</a> </li>
+				<li><a href="horario.html" >Horario</a></li>
+				<li><a href="pasatiempos.html">Pasatiempos</a></li>
+				<li><a href="comoLlegar.html">Mapa de Ubicación</a></li>
+				<li><a href="contacto.html" >Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<br><br><br>
+	<h2><b>Registro de usuarios</b></h2>
+	<section class="main">
+		<form>
+			<br><br>
+			<label for="correo">Ingresa tu Correo: </label>
+			<input type="text" placeholder="Correo" id="correo">
+			<br><br>
+			<label for="user">Ingresa tu Nombre de Usuario: </label>
+			<input type="text" placeholder="Usuario" id="user">
+			<br><br>
+			<label for="name">Ingresa tu Nombre Completo: </label>
+			<input type="text" placeholder="Nombre" id="name">
+			<br><br>
+			<label for="direc">Ingresa tu Dirección: </label>
+			<input type="text" placeholder="Dirección" id="direc">
+			<br><br>
+			<label for="estado">Selecciona tu Estado: </label>
+			<select name="Estado" id="estado">
+				<option value="Jalisco">Jalisco</option>
+				<option value="Sinaloa">Sinaloa</option>
+				<option value="Nayarit">Nayarit</option>
+				<option value="CDMX">CDMX</option>
+			</select>
+			<br><br>
+			<label for="pais">Selecciona tu País: </label>
+			<select name="pais" id="pais">
+				<option value="México">México</option>
+				<option value="Estados Unidos">Estados Unidos</option>
+				<option value="Canadá">Canadá</option>
+				<option value="Argentina">Argentina</option>
+			</select>
+			<br><br>
+			<label for="sexo">Selecciona tu Sexo: </label>
+			<input type="radio"  id="sexo"><b>Hombre</b> <input type="radio"  id="sexo"><b>Mujer</b> <input type="radio"  id="sexo"><b>Otro</b>
+			<br><br>
+			<label for="civil">Selecciona tu Estado Civil: </label>
+			<input type="radio"  id="civil"><b>Solter@</b> <input type="radio"  id="civil"><b>Casad@</b> <input type="radio"  id="civil"><b>Comprometid@</b>
+			<br><br>
+			<label for="gustos">Describe tus gustos o aficiones: </label>
+			<input type="text" id="gustos" placeholder="Gustos">
+			<br><br>
+			<input type="submit" class="black" value="Enviar">
+			<input type="reset" class="black" value="Limpiar">
+		</form>
+		
+		<br><br>
+		<footer><b> Cázares Erubey Mazatlán,Sin. 2020 </b></footer>
+	</section>
+	
+</body>
+</html>
